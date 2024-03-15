@@ -1,0 +1,110 @@
+body{
+    overflow: hidden;
+    background: -webkit-linear-gradient(#0b58c2, #0b58c2, #0b58c2); 
+    margin: 0;
+    padding: 0;
+    
+}
+a {
+    text-decoration: none;
+  }
+  label {
+      font-family: "Space Grotesk", sans-serif;
+      font-weight: 300;
+    font-size: 11pt;
+  }
+  #forgot-pass {
+    color: #0b58c2;
+      font-family: "Space Grotesk", sans-serif;
+    font-size: 10pt;
+    margin-top: 3px;
+    text-align: right;
+  }
+  #card {
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 570px;
+    margin: 6rem auto 8.1rem auto;
+    width: 329px;
+    position: absolute;
+    top: 15%;
+    left: 75%;
+    font-family: "Space Grotesk", sans-serif;
+    scale: 2;
+  }
+  #card-content {
+    padding: 12px 44px;
+  }
+  #card-title {
+    font-family: "Space Grotesk", sans-serif;
+    letter-spacing: 4px;
+    padding-bottom: 23px;
+    padding-top: 13px;
+    text-align: center;
+  }
+  #signup {
+    color: #0b58c2;
+      font-family: "Space Grotesk", sans-serif;
+    font-size: 10pt;
+    margin-top: 16px;
+    text-align: center;
+  }
+  .button2{
+    background: -webkit-linear-gradient(#0b58c2, #0b58c2, #0b58c2);
+    border: none;
+    border-radius: 21px;
+    box-shadow: 0px 1px 8px #59fffc;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.3px;
+    margin: 0 auto;
+    margin-top: 50px;
+    transition: 0.25s;
+    width: 153px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .button2:hover {
+    box-shadow: 0px 0px 18px #4861a5;
+  }
+  
+
+  .form {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+  }
+  .form-border {
+    background: -webkit-linear-gradient(right, #0b58c2, #0b58c2);
+    height: 1px;
+    width: 100%;
+  }
+  .form-content {
+    background: #fbfbfb;
+    border: none;
+    outline: none;
+    padding-top: 14px;
+  }
+  .underline-title {
+    background: -webkit-linear-gradient(right, #0b58c2, #0b58c2);
+    height: 2px;
+    margin: -1.1rem auto 0 auto;
+    width: 89px;
+  }
+  
+  .background-img {
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(0.2vw);
+    filter: brightness(70%);
+    height: 120vh;
+    width: 100%;    
+    z-index: -6;
+    object-fit: cover;
+    overflow-x: hidden;
+  }
